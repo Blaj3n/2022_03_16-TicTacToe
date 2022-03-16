@@ -1,0 +1,27 @@
+header{
+    display: grid;
+    color: red;
+    background-color: salmon;
+}
+section{
+    display: grid;
+    color: blue;
+    background-color: skyblue;
+}
+article {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    background-color: green;
+}
+article div {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size:40px;
+    padding: 2px;
+    text-align: center;
+}
+
+.kesz {
+    background-color: azure;
+}
